@@ -19,7 +19,7 @@ FROM bookings.airplanes_data;
 SELECT f.flight_id
 FROM bookings.flights AS f
 JOIN bookings.routes AS r ON f.route_no = r.route_no
-WHERE r.airplane_code = '733';
+WHERE r.airplane_code = '7m7';
 
 
 -- EJERCICIO 5
